@@ -9,8 +9,7 @@ section_mapping = {
     "RadioTvPortal": "1175",
     "TaggedTagPage": "1176",
     "TaggedTheme": "1177",
-    "TaggedThemes": "1178",
-    "Weather": "1344"
+    "TaggedThemes": "1178"
     }
 
 //2: Settings for adslots and headerbidding.
@@ -36,7 +35,7 @@ adslot_mapping = {
         "1169": {
             "defaultcontent1": {
                     "ancora_adslot_id": "568",
-                    "rubicon_zone_id": 832778,
+                    "rubicon_zone_id": 783738,
                     "viewports": [{
                         "minwidth": 0,
                         "maxwidth": 768,
@@ -49,7 +48,7 @@ adslot_mapping = {
                 },
             "defaultcontent2": {
             		"ancora_adslot_id": "569",
-                    "rubicon_zone_id": 832780,
+                    "rubicon_zone_id": 783738,
                     "viewports": [
                     {
                         "minwidth": 0,
@@ -63,7 +62,7 @@ adslot_mapping = {
                 },
              "defaultcontent3": {
             		"ancora_adslot_id": "570",
-                    "rubicon_zone_id": 832782,
+                    "rubicon_zone_id": 783738,
                     "viewports": [
                     {
                         "minwidth": 0,
@@ -77,7 +76,7 @@ adslot_mapping = {
                 },
             "headerbanner": {
             		"ancora_adslot_id": "571",
-                    "rubicon_zone_id": 832792,
+                    "rubicon_zone_id": 783738,
                     "viewports": [
                     {
                         "minwidth": 0,
@@ -91,7 +90,7 @@ adslot_mapping = {
                 },
             "mobileheaderbanner": {
             		"ancora_adslot_id": "572",
-                    "rubicon_zone_id": 832794,
+                    "rubicon_zone_id": 783738,
                     "viewports": [
                     {
                         "minwidth": 0,
@@ -101,7 +100,7 @@ adslot_mapping = {
                     {
                         "minwidth": 992,
                         "maxwidth": 1200,
-                        "sizes": [320, 50]
+                        "sizes": [728, 90]
                     },
                     {
                     	"minwidth":1200,
@@ -110,7 +109,7 @@ adslot_mapping = {
                 },
             "defaultsidebar1": {
             		"ancora_adslot_id": "573",
-                    "rubicon_zone_id": 832786,
+                    "rubicon_zone_id": 783738,
                     "viewports": [
                     {
                         "minwidth": 0,
@@ -140,7 +139,7 @@ adslot_mapping = {
         "1170": {
             "defaultcontent1": {
                     "ancora_adslot_id": "574",
-                    "rubicon_zone_id": 837948,
+                    "rubicon_zone_id": 783738,
                     "viewports": [{
                         "minwidth": 0,
                         "maxwidth": 768,
@@ -153,7 +152,7 @@ adslot_mapping = {
                 },
             "headerbanner": {
             		"ancora_adslot_id": "575",
-                    "rubicon_zone_id": 837952,
+                    "rubicon_zone_id": 783738,
                     "viewports": [
                     {
                         "minwidth": 0,
@@ -167,7 +166,7 @@ adslot_mapping = {
                 },
             "mobileheaderbanner": {
             		"ancora_adslot_id": "576",
-                    "rubicon_zone_id": 837954,
+                    "rubicon_zone_id": 783738,
                     "viewports": [
                     {
                         "minwidth": 0,
@@ -186,7 +185,7 @@ adslot_mapping = {
                 },
             "defaultsidebar1": {
             		"ancora_adslot_id": "577",
-                    "rubicon_zone_id": 837950,
+                    "rubicon_zone_id": 783738,
                     "viewports": [
                     {
                         "minwidth": 0,
@@ -202,7 +201,7 @@ adslot_mapping = {
         "1171": {
             "defaultcontent1": {
                     "ancora_adslot_id": "578",
-                    "rubicon_zone_id": 832838,
+                    "rubicon_zone_id": 783738,
                     "viewports": [{
                         "minwidth": 0,
                         "maxwidth": 768,
@@ -215,7 +214,7 @@ adslot_mapping = {
                 },
             "defaultcontent2": {
                     "ancora_adslot_id": "579",
-                    "rubicon_zone_id": 832840,
+                    "rubicon_zone_id": 783738,
                     "viewports": [{
                         "minwidth": 0,
                         "maxwidth": 768,
@@ -228,7 +227,7 @@ adslot_mapping = {
                 },
             "headerbanner": {
             		"ancora_adslot_id": "580",
-                    "rubicon_zone_id": 832844,
+                    "rubicon_zone_id": 783738,
                     "viewports": [
                     {
                         "minwidth": 0,
@@ -242,7 +241,7 @@ adslot_mapping = {
                 },
              "mobileheaderbanner": {
             		"ancora_adslot_id": "581",
-                    "rubicon_zone_id": 832846,
+                    "rubicon_zone_id": 783738,
                     "viewports": [
                     {
                         "minwidth": 0,
@@ -261,7 +260,7 @@ adslot_mapping = {
                 },
             "defaultsidebar1": {
             		"ancora_adslot_id": "582",
-                    "rubicon_zone_id": 832842,
+                    "rubicon_zone_id": 783738,
                     "viewports": [
                     {
                         "minwidth": 0,
@@ -277,7 +276,7 @@ adslot_mapping = {
     	"1172": {
             "defaultcontent1": {
                     "ancora_adslot_id": "583",
-                    "rubicon_zone_id": 838050,
+                    "rubicon_zone_id": 783738,
                     "viewports": [{
                         "minwidth": 0,
                         "maxwidth": 768,
@@ -290,7 +289,7 @@ adslot_mapping = {
                 },
             "defaultcontent2": {
                     "ancora_adslot_id": "584",
-                    "rubicon_zone_id": 838052,
+                    "rubicon_zone_id": 783738,
                     "viewports": [{
                         "minwidth": 0,
                         "maxwidth": 768,
@@ -303,7 +302,7 @@ adslot_mapping = {
                 },
             "headerbanner": {
             		"ancora_adslot_id": "585",
-                    "rubicon_zone_id": 838056,
+                    "rubicon_zone_id": 783738,
                     "viewports": [
                     {
                         "minwidth": 0,
@@ -317,7 +316,7 @@ adslot_mapping = {
                 },
             "mobileheaderbanner": {
             		"ancora_adslot_id": "586",
-                    "rubicon_zone_id": 838058,
+                    "rubicon_zone_id": 783738,
                     "viewports": [
                     {
                         "minwidth": 0,
@@ -336,7 +335,7 @@ adslot_mapping = {
                 },
             "defaultsidebar1": {
             		"ancora_adslot_id": "587",
-                    "rubicon_zone_id": 838054,
+                    "rubicon_zone_id": 783738,
                     "viewports": [
                     {
                         "minwidth": 0,
@@ -352,7 +351,7 @@ adslot_mapping = {
      	"1173": {
             "defaultcontent1": {
                     "ancora_adslot_id": "588",
-                    "rubicon_zone_id": 838030,
+                    "rubicon_zone_id": 783738,
                     "viewports": [{
                         "minwidth": 0,
                         "maxwidth": 768,
@@ -365,7 +364,7 @@ adslot_mapping = {
                 },
             "headerbanner": {
             		"ancora_adslot_id": "590",
-                    "rubicon_zone_id": 838034,
+                    "rubicon_zone_id": 783738,
                     "viewports": [
                     {
                         "minwidth": 0,
@@ -379,7 +378,7 @@ adslot_mapping = {
                 },
             "mobileheaderbanner": {
             		"ancora_adslot_id": "591",
-                    "rubicon_zone_id": 838036,
+                    "rubicon_zone_id": 783738,
                     "viewports": [
                     {
                         "minwidth": 0,
@@ -389,7 +388,7 @@ adslot_mapping = {
                     {
                         "minwidth": 992,
                         "maxwidth": 1200,
-                        "sizes": [320, 50]
+                        "sizes": [728, 90]
                     },
                     {
                     	"minwidth": 1200,
@@ -398,7 +397,7 @@ adslot_mapping = {
                 },
            "defaultsidebar1": {
             		"ancora_adslot_id": "592",
-                    "rubicon_zone_id": 838032,
+                    "rubicon_zone_id": 783738,
                     "viewports": [
                     {
                         "minwidth": 0,
@@ -489,7 +488,7 @@ adslot_mapping = {
        	"1175": {
             "defaultcontent1": {
                     "ancora_adslot_id": "598",
-                    "rubicon_zone_id": 838068,
+                    "rubicon_zone_id": 783738,
                     "viewports": [{
                         "minwidth": 0,
                         "maxwidth": 768,
@@ -502,7 +501,7 @@ adslot_mapping = {
                 },
             "headerbanner": {
             		"ancora_adslot_id": "599",
-                    "rubicon_zone_id": 838072,
+                    "rubicon_zone_id": 783738,
                     "viewports": [
                     {
                         "minwidth": 0,
@@ -516,7 +515,7 @@ adslot_mapping = {
                 },
             "mobileheaderbanner": {
             		"ancora_adslot_id": "600",
-                    "rubicon_zone_id": 838076,
+                    "rubicon_zone_id": 783738,
                     "viewports": [
                     {
                         "minwidth": 0,
@@ -535,7 +534,7 @@ adslot_mapping = {
                 },
             "defaultsidebar1": {
             		"ancora_adslot_id": "601",
-                    "rubicon_zone_id": 838070,
+                    "rubicon_zone_id": 783738,
                     "viewports": [
                     {
                         "minwidth": 0,
@@ -613,7 +612,7 @@ adslot_mapping = {
       	"1177": {
             "defaultcontent1": {
                     "ancora_adslot_id": "606",
-                    "rubicon_zone_id": 837976,
+                    "rubicon_zone_id": 783738,
                     "viewports": [{
                         "minwidth": 0,
                         "maxwidth": 768,
@@ -626,7 +625,7 @@ adslot_mapping = {
                 },
             "headerbanner": {
             		"ancora_adslot_id": "607",
-                    "rubicon_zone_id": 837980,
+                    "rubicon_zone_id": 783738,
                     "viewports": [
                     {
                         "minwidth": 0,
@@ -640,7 +639,7 @@ adslot_mapping = {
                 },
             "mobileheaderbanner": {
             		"ancora_adslot_id": "608",
-                    "rubicon_zone_id": 837982,
+                    "rubicon_zone_id": 783738,
                     "viewports": [
                     {
                         "minwidth": 0,
@@ -650,7 +649,7 @@ adslot_mapping = {
                     {
                         "minwidth": 992,
                         "maxwidth": 1200,
-                        "sizes": [320, 50]
+                        "sizes": [728, 90]
                     },
                     {
                     	"minwidth":1200,
@@ -659,7 +658,7 @@ adslot_mapping = {
                 },
             "defaultsidebar1": {
             		"ancora_adslot_id": "609",
-                    "rubicon_zone_id": 837978,
+                    "rubicon_zone_id": 783738,
                     "viewports": [
                     {
                         "minwidth": 0,
@@ -725,7 +724,7 @@ adslot_mapping = {
                     {
                         "minwidth": 992,
                         "nmaxwidth": 1200,
-                        "sizes": [320, 50]
+                        "sizes": [728, 90]
                     },
                     {
                     	"minwidth":1200,
@@ -745,55 +744,7 @@ adslot_mapping = {
                         "minwidth": 992,
                         "sizes": [300, 250]
                     }]
-                },
-      	"1344": {
-            "headerbanner": {
-                    "ancora_adslot_id": "1046",
-                    "rubicon_zone_id": 863060,
-                    "viewports": [
-                    {
-                        "minwidth": 0,
-                        "maxwidth": 1200,
-                        "sizes": []
-                    },
-                    {
-                        "minwidth": 1200,
-                        "sizes": [728, 90]
-                    }]
-                },
-            "mobileheaderbanner": {
-            		"ancora_adslot_id": "1047",
-                    "rubicon_zone_id": 863062,
-                    "viewports": [
-                    {
-                        "minwidth": 0,
-                        "maxwidth": 992,
-                        "sizes": []
-                    },
-                    {
-                        "minwidth": 992,
-                        "nmaxwidth": 1200,
-                        "sizes": [320, 50]
-                    },
-                    {
-                    	"minwidth":1200,
-                    	"sizes":[]
-                    }]
-                },
-            "defaultsidebar1": {
-            		"ancora_adslot_id": "1048",
-                    "rubicon_zone_id": 863064,
-                    "viewports": [
-                    {
-                        "minwidth": 0,
-                        "maxwidth": 992,
-                        "sizes": []
-                    },
-                    {
-                        "minwidth": 992,
-                        "sizes": [300, 250]
-                    }]
-                },
+                }
             },                
                
     }
