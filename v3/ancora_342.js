@@ -12,7 +12,7 @@ section_mapping = {
     "TaggedTagPage": "1176",
     "TaggedTheme": "1177",
     "TaggedThemes": "1178",
-	"Weather": "1344"
+    "Weather": "1344"
     }
 
 //2: Settings for adslots and headerbidding.
@@ -748,9 +748,9 @@ adslot_mapping = {
                         "sizes": [300, 250]
                     }]
                 },
-		"1344": {
-			"headerbanner": {
-            		"ancora_adslot_id": "1046",
+      	"1344": {
+            "headerbanner": {
+                    "ancora_adslot_id": "1046",
                     "rubicon_zone_id": 863060,
                     "viewports": [
                     {
@@ -763,7 +763,7 @@ adslot_mapping = {
                         "sizes": [728, 90]
                     }]
                 },
-			"mobileheaderbanner": {
+            "mobileheaderbanner": {
             		"ancora_adslot_id": "1047",
                     "rubicon_zone_id": 863062,
                     "viewports": [
