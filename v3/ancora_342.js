@@ -1,6 +1,4 @@
 //RTV Noord
-//1: section ids
-//enter all sections, mapping the id that is set on the website to the section_id in the backend
 section_mapping = {
     "Home": "1169",
     "Container": "1170",
