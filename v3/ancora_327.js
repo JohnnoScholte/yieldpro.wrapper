@@ -264,7 +264,7 @@ adslot_mapping = {
                 }]
             },
             "defaultcontent3": {
-                "ancora_adslot_id": 884,
+                "ancora_adslot_id": 928,
                 "rubicon_zone_id": "803126",
                 "viewports": [{
                     "minwidth": 0,
