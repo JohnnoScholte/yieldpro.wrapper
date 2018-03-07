@@ -1,13 +1,10 @@
 //omroep Fryslan
-//1: section ids
-//enter all sections, mapping the id that is set on the website to the section_id in the backend
 section_mapping = {
     1: "1060",
     2: "1061",
     3: "1062"
     }
 
-//2: Settings for adslots and headerbidding.
 adslot_mapping = {
     "ancora_site_id": 320,
     "headerbidding": true,

@@ -1,6 +1,4 @@
 // RTV Utrecht
-//1: section ids
-//enter all sections, mapping the id that is set on the website to the section_id in the backend
 section_mapping = {
     "Home": 1088,
     "NewsItem": 1089, 
@@ -12,8 +10,6 @@ section_mapping = {
     "OverigItem": 1267
 }
 
-//2: Settings for adslots and headerbidding.
-
 adslot_mapping = {
     "ancora_site_id": 327,
     "headerbidding": true,
@@ -24,7 +20,7 @@ adslot_mapping = {
         "rubicon_account_id": "16476",
         "appnexus": true,
         "appnexus_id": "11904364",
-        "criteo": true
+        "criteo": false
     },
     "criteo_hb": {
         "300x250": "1159047",

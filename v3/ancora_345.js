@@ -1,6 +1,4 @@
 //Omroep Brabant
-//1: section ids
-//enter all sections, mapping the id that is set on the website to the section_id in the backend
 section_mapping = {
     "Homepage": "1195",
     "Default": "1196",
@@ -12,7 +10,6 @@ section_mapping = {
     "NewsFolder-150": "1202",
     }
 
-//2: Settings for adslots and headerbidding.
 adslot_mapping = {
         "ancora_site_id": 345,
         "headerbidding": true,
@@ -23,7 +20,7 @@ adslot_mapping = {
             "rubicon_account_id": "16476",
             "appnexus": true,
             "appnexus_id": 11904407,
-            "criteo": true,
+            "criteo": false,
         },
         "criteo_hb": {
             "200x200": "1158981",

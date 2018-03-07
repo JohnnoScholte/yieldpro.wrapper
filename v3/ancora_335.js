@@ -1,6 +1,4 @@
-//RTV Oost Mobile v1
-//1: section ids
-//enter all sections, mapping the id that is set on the website to the section_id in the backend
+//m.RTVOost.nl
 section_mapping = {
     "Home": "1118",
 	"Nieuws": "1119",
@@ -11,7 +9,6 @@ section_mapping = {
     "mob_artikel_overig": "1205" 
     }
 
-//2: Settings for adslots and headerbidding.
 adslot_mapping = {
     "ancora_site_id": 335,
     "headerbidding": true,
@@ -22,7 +19,7 @@ adslot_mapping = {
         "rubicon_account_id": "16476",
         "appnexus": true,
         "appnexus_id": "10898630",
-        "criteo": true,
+        "criteo": false,
     },
     "criteo_hb": {
         "320x50": "1159046",

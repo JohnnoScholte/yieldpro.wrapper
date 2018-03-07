@@ -1,25 +1,21 @@
-//Limburg
-//1: section ids
-//enter all sections, mapping the id that is set on the website to the section_id in the backend
+//l1.nl
 section_mapping = {
     "Home": "1069",
     "Overige": "1070",
     "Sectiepagina": "1317"
 }
 
-//2: Settings for adslots and headerbidding.
-
 adslot_mapping = {
         "ancora_site_id": 323,
         "headerbidding": true,
-        "viewports": true, //if set to false, set 1 viewport dictionary for minwidth = 0
+        "viewports": true,
         "headerbidding_networks": {
             "rubicon": true,
             "rubicon_site_id": "151244",
             "rubicon_account_id": "16476",
             "appnexus": true,
             "appnexus_id": "11904354",
-            "criteo": true,
+            "criteo": false,
         },
         "criteo_hb": {
             "728x90": "1158974",

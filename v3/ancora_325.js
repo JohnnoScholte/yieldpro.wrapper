@@ -1,6 +1,4 @@
 //Flevoland
-//1: section ids
-//enter all sections, mapping the id that is set on the website to the section_id in the backend
 section_mapping = {
     1: "1073",
     2: "1074",
@@ -12,7 +10,6 @@ section_mapping = {
     8: "1080"
     }
 
-//2: Settings for adslots and headerbidding.
 adslot_mapping = {
     "ancora_site_id": 325,
     "headerbidding": true,
@@ -23,7 +20,7 @@ adslot_mapping = {
         "rubicon_account_id": "16476",
         "appnexus": true,
         "appnexus_id": "12379298",
-        "criteo": true,
+        "criteo": false,
     },
     "criteo_hb": {
         "300x250": "1158982",
@@ -45,7 +42,7 @@ adslot_mapping = {
                     "sizes": [[728, 90]]
                 }]
             },
-  			"homerect1": {
+            "homerect1": {
                 "ancora_adslot_id": "296",
                 "rubicon_zone_id": "783748",
                 "viewports" : [{
@@ -58,43 +55,43 @@ adslot_mapping = {
                     "sizes": [[300, 250]]
                 }]
             },
-		 	"homelead2": {
+            "homelead2": {
                 "ancora_adslot_id": "297",
                 "rubicon_zone_id": "783748",
                 "viewports" : [{
-                    "minwidth": 0, //minwidth always required
-                    "maxwidth": 700, //only required if more viewports are defined
-                    "sizes": [[320, 50]] //must be comma separated list
+                    "minwidth": 0,
+                    "maxwidth": 700,
+                    "sizes": [[320, 50]]
                 },
                 {
                     "minwidth": 700,
-                    "sizes": [[728, 90]] //empty list if no ads should be displayed
+                    "sizes": [[728, 90]]
                 }]
             },
-   			"homerect2": {
+            "homerect2": {
                 "ancora_adslot_id": "298",
                 "rubicon_zone_id": "783748",
                 "viewports" : [{
-                    "minwidth": 0, //minwidth always required
-                    "maxwidth": 700, //only required if more viewports are defined
-                    "sizes": [[320, 50]] //must be comma separated list
+                    "minwidth": 0,
+                    "maxwidth": 700,
+                    "sizes": [[320, 50]]
                 },
                 {
                     "minwidth": 700,
-                    "sizes": [[300, 250]] //empty list if no ads should be displayed
+                    "sizes": [[300, 250]]
                 }]
             },
-  			"homerect3": {
+            "homerect3": {
                 "ancora_adslot_id": "299",
                 "rubicon_zone_id": "783748",
                 "viewports" : [{
-                    "minwidth": 0, //minwidth always required
-                    "maxwidth": 700, //only required if more viewports are defined
-                    "sizes": [[320, 50]] //must be comma separated list
+                    "minwidth": 0,d[4]
+                    "maxwidth": 700,
+                    "sizes": [[320, 50]]
                 },
                 {
                     "minwidth": 700,
-                    "sizes": [[300, 250]] //empty list if no ads should be displayed
+                    "sizes": [[300, 250]]
                 }]
             }                               
 
@@ -104,65 +101,65 @@ adslot_mapping = {
                 "ancora_adslot_id": "300",
                 "rubicon_zone_id": "783748",
                 "viewports" : [{
-                    "minwidth": 0, //minwidth always required
-                    "maxwidth": 700, //only required if more viewports are defined
-                    "sizes": [[320, 50]] //must be comma separated list
+                    "minwidth": 0,
+                    "maxwidth": 700,
+                    "sizes": [[320, 50]]
                 },
                 {
                     "minwidth": 700,
-                    "sizes": [[728, 90]] //empty list if no ads should be displayed
+                    "sizes": [[728, 90]]
                 }]
             },
             "lay2lead2": {
                 "ancora_adslot_id": "301",
                 "rubicon_zone_id": "783748",
                 "viewports" : [{
-                    "minwidth": 0, //minwidth always required
-                    "maxwidth": 700, //only required if more viewports are defined
-                    "sizes": [[320, 50]] //must be comma separated list
+                    "minwidth": 0,
+                    "maxwidth": 700,
+                    "sizes": [[320, 50]]
                 },
                 {
                     "minwidth": 700,
-                    "sizes": [[728, 90]] //empty list if no ads should be displayed
+                    "sizes": [[728, 90]]
                 }]
             },
             "lay2lead3": {
                 "ancora_adslot_id": "302",
                 "rubicon_zone_id": "783748",
                 "viewports" : [{
-                    "minwidth": 0, //minwidth always required
-                    "maxwidth": 700, //only required if more viewports are defined
-                    "sizes": [[320, 50]] //must be comma separated list
+                    "minwidth": 0,
+                    "maxwidth": 700,
+                    "sizes": [[320, 50]]
                 },
                 {
                     "minwidth": 700,
-                    "sizes": [[728, 90]] //empty list if no ads should be displayed
+                    "sizes": [[728, 90]]
                 }]
             },
             "lay2rect1": {
                 "ancora_adslot_id": "303",
                 "rubicon_zone_id": "783748",
                 "viewports" : [{
-                    "minwidth": 0, //minwidth always required
-                    "maxwidth": 700, //only required if more viewports are defined
-                    "sizes": [[320, 50]] //must be comma separated list
+                    "minwidth": 0,
+                    "maxwidth": 700,
+                    "sizes": [[320, 50]]
                 },
                 {
                     "minwidth": 700,
-                    "sizes": [[300, 250]] //empty list if no ads should be displayed
+                    "sizes": [[300, 250]]
                 }]
             },
             "lay2rect2": {
                 "ancora_adslot_id": "304",
                 "rubicon_zone_id": "783748",
                 "viewports" : [{
-                    "minwidth": 0, //minwidth always required
-                    "maxwidth": 700, //only required if more viewports are defined
-                    "sizes": [[320, 50]] //must be comma separated list
+                    "minwidth": 0,
+                    "maxwidth": 700,
+                    "sizes": [[320, 50]]
                 },
                 {
                     "minwidth": 700,
-                    "sizes": [[300, 250]] //empty list if no ads should be displayed
+                    "sizes": [[300, 250]]
                 }]
             },
         },
@@ -171,65 +168,65 @@ adslot_mapping = {
                 "ancora_adslot_id": "300",
                 "rubicon_zone_id": "783748",
                 "viewports" : [{
-                    "minwidth": 0, //minwidth always required
-                    "maxwidth": 700, //only required if more viewports are defined
-                    "sizes": [[320, 50]] //must be comma separated list
+                    "minwidth": 0,
+                    "maxwidth": 700,
+                    "sizes": [[320, 50]]
                 },
                 {
                     "minwidth": 700,
-                    "sizes": [[728, 90]] //empty list if no ads should be displayed
+                    "sizes": [[728, 90]]
                 }]
             },
             "lay2lead2": {
                 "ancora_adslot_id": "301",
                 "rubicon_zone_id": "783748",
                 "viewports" : [{
-                    "minwidth": 0, //minwidth always required
-                    "maxwidth": 700, //only required if more viewports are defined
-                    "sizes": [[320, 50]] //must be comma separated list
+                    "minwidth": 0,
+                    "maxwidth": 700,
+                    "sizes": [[320, 50]]
                 },
                 {
                     "minwidth": 700,
-                    "sizes": [[728, 90]] //empty list if no ads should be displayed
+                    "sizes": [[728, 90]]
                 }]
             },
             "lay2lead3": {
                 "ancora_adslot_id": "302",
                 "rubicon_zone_id": "783748",
                 "viewports" : [{
-                    "minwidth": 0, //minwidth always required
-                    "maxwidth": 700, //only required if more viewports are defined
-                    "sizes": [[320, 50]] //must be comma separated list
+                    "minwidth": 0,
+                    "maxwidth": 700,
+                    "sizes": [[320, 50]]
                 },
                 {
                     "minwidth": 700,
-                    "sizes": [[728, 90]] //empty list if no ads should be displayed
+                    "sizes": [[728, 90]]
                 }]
             },
             "lay2rect1": {
                 "ancora_adslot_id": "303",
                 "rubicon_zone_id": "783748",
                 "viewports" : [{
-                    "minwidth": 0, //minwidth always required
-                    "maxwidth": 700, //only required if more viewports are defined
-                    "sizes": [[320, 50]] //must be comma separated list
+                    "minwidth": 0,
+                    "maxwidth": 700,
+                    "sizes": [[320, 50]]
                 },
                 {
                     "minwidth": 700,
-                    "sizes": [[300, 250]] //empty list if no ads should be displayed
+                    "sizes": [[300, 250]]
                 }]
             },
             "lay2rect2": {
                 "ancora_adslot_id": "304",
                 "rubicon_zone_id": "783748",
                 "viewports" : [{
-                    "minwidth": 0, //minwidth always required
-                    "maxwidth": 700, //only required if more viewports are defined
-                    "sizes": [[320, 50]] //must be comma separated list
+                    "minwidth": 0,
+                    "maxwidth": 700,
+                    "sizes": [[320, 50]]
                 },
                 {
                     "minwidth": 700,
-                    "sizes": [[300, 250]] //empty list if no ads should be displayed
+                    "sizes": [[300, 250]]
                 }]
             }
         },
@@ -238,39 +235,39 @@ adslot_mapping = {
                 "ancora_adslot_id": "305",
                 "rubicon_zone_id": "783748",
                 "viewports" : [{
-                    "minwidth": 0, //minwidth always required
-                    "maxwidth": 700, //only required if more viewports are defined
-                    "sizes": [[320, 50]] //must be comma separated list
+                    "minwidth": 0,
+                    "maxwidth": 700,
+                    "sizes": [[320, 50]]
                 },
                 {
                     "minwidth": 700,
-                    "sizes": [[728, 90]] //empty list if no ads should be displayed
+                    "sizes": [[728, 90]]
                 }]
             },
             "lay2lead2": {
                 "ancora_adslot_id": "306",
                 "rubicon_zone_id": "783748",
                 "viewports" : [{
-                    "minwidth": 0, //minwidth always required
-                    "maxwidth": 700, //only required if more viewports are defined
-                    "sizes": [[320, 50]] //must be comma separated list
+                    "minwidth": 0,
+                    "maxwidth": 700,
+                    "sizes": [[320, 50]]
                 },
                 {
                     "minwidth": 700,
-                    "sizes": [[728, 90]] //empty list if no ads should be displayed
+                    "sizes": [[728, 90]]
                 }]
             },
             "lay3rect1": {
                 "ancora_adslot_id": "307",
                 "rubicon_zone_id": "783748",
                 "viewports" : [{
-                    "minwidth": 0, //minwidth always required
-                    "maxwidth": 700, //only required if more viewports are defined
-                    "sizes": [[320, 50]] //must be comma separated list
+                    "minwidth": 0,
+                    "maxwidth": 700,
+                    "sizes": [[320, 50]]
                 },
                 {
                     "minwidth": 700,
-                    "sizes": [[300, 250]] //empty list if no ads should be displayed
+                    "sizes": [[300, 250]]
                 }]
             },
 
@@ -280,39 +277,39 @@ adslot_mapping = {
                 "ancora_adslot_id": "305",
                 "rubicon_zone_id": "783748",
                 "viewports" : [{
-                    "minwidth": 0, //minwidth always required
-                    "maxwidth": 700, //only required if more viewports are defined
-                    "sizes": [[320, 50]] //must be comma separated list
+                    "minwidth": 0,
+                    "maxwidth": 700,
+                    "sizes": [[320, 50]]
                 },
                 {
                     "minwidth": 700,
-                    "sizes": [[728, 90]] //empty list if no ads should be displayed
+                    "sizes": [[728, 90]]
                 }]
             },
             "homelead1": { //should be
                 "ancora_adslot_id": "306",
                 "rubicon_zone_id": "783748",
                 "viewports" : [{
-                    "minwidth": 0, //minwidth always required
-                    "maxwidth": 700, //only required if more viewports are defined
-                    "sizes": [[320, 50]] //must be comma separated list
+                    "minwidth": 0,
+                    "maxwidth": 700,
+                    "sizes": [[320, 50]]
                 },
                 {
                     "minwidth": 700,
-                    "sizes": [[728, 90]] //empty list if no ads should be displayed
+                    "sizes": [[728, 90]]
                 }]
             },
             "lay3rect1": {
                 "ancora_adslot_id": "307",
                 "rubicon_zone_id": "783748",
                 "viewports" : [{
-                    "minwidth": 0, //minwidth always required
-                    "maxwidth": 700, //only required if more viewports are defined
-                    "sizes": [[320, 50]] //must be comma separated list
+                    "minwidth": 0,
+                    "maxwidth": 700,
+                    "sizes": [[320, 50]]
                 },
                 {
                     "minwidth": 700,
-                    "sizes": [[300, 250]] //empty list if no ads should be displayed
+                    "sizes": [[300, 250]]
                 }]
             },
 
@@ -322,52 +319,52 @@ adslot_mapping = {
                 "ancora_adslot_id": "910",
                 "rubicon_zone_id": "783748",
                 "viewports" : [{
-                    "minwidth": 0, //minwidth always required
-                    "maxwidth": 700, //only required if more viewports are defined
-                    "sizes": [[320, 50]] //must be comma separated list
+                    "minwidth": 0,
+                    "maxwidth": 700,
+                    "sizes": [[320, 50]]
                 },
                 {
                     "minwidth": 700,
-                    "sizes": [[728, 90]] //empty list if no ads should be displayed
+                    "sizes": [[728, 90]]
                 }]
             },
             "lay2lead2": {
                 "ancora_adslot_id": "911",
                 "rubicon_zone_id": "783748",
                 "viewports" : [{
-                    "minwidth": 0, //minwidth always required
-                    "maxwidth": 700, //only required if more viewports are defined
-                    "sizes": [[320, 50]] //must be comma separated list
+                    "minwidth": 0,
+                    "maxwidth": 700,
+                    "sizes": [[320, 50]]
                 },
                 {
                     "minwidth": 700,
-                    "sizes": [[728, 90]] //empty list if no ads should be displayed
+                    "sizes": [[728, 90]]
                 }]
             },
             "lay3rect1": {
                 "ancora_adslot_id": "912",
                 "rubicon_zone_id": "783748",
                 "viewports" : [{
-                    "minwidth": 0, //minwidth always required
-                    "maxwidth": 700, //only required if more viewports are defined
-                    "sizes": [[320, 50]] //must be comma separated list
+                    "minwidth": 0,
+                    "maxwidth": 700,
+                    "sizes": [[320, 50]]
                 },
                 {
                     "minwidth": 700,
-                    "sizes": [[300, 250]] //empty list if no ads should be displayed
+                    "sizes": [[300, 250]]
                 }]
             },
             "lay3rect3": {
                 "ancora_adslot_id": "915",
                 "rubicon_zone_id": "783748",
                 "viewports" : [{
-                    "minwidth": 0, //minwidth always required
-                    "maxwidth": 700, //only required if more viewports are defined
-                    "sizes": [[320, 50]] //must be comma separated list
+                    "minwidth": 0,
+                    "maxwidth": 700,
+                    "sizes": [[320, 50]]
                 },
                 {
                     "minwidth": 700,
-                    "sizes": [[300, 250]] //empty list if no ads should be displayed
+                    "sizes": [[300, 250]]
                 }]
             }
         },
@@ -376,39 +373,39 @@ adslot_mapping = {
                 "ancora_adslot_id": "305",
                 "rubicon_zone_id": "783748",
                 "viewports" : [{
-                    "minwidth": 0, //minwidth always required
-                    "maxwidth": 700, //only required if more viewports are defined
-                    "sizes": [[320, 50]] //must be comma separated list
+                    "minwidth": 0,
+                    "maxwidth": 700,
+                    "sizes": [[320, 50]]
                 },
                 {
                     "minwidth": 700,
-                    "sizes": [[728, 90]] //empty list if no ads should be displayed
+                    "sizes": [[728, 90]]
                 }]
             },
             "lay2lead2": {
                 "ancora_adslot_id": "306",
                 "rubicon_zone_id": "783748",
                 "viewports" : [{
-                    "minwidth": 0, //minwidth always required
-                    "maxwidth": 700, //only required if more viewports are defined
-                    "sizes": [[320, 50]] //must be comma separated list
+                    "minwidth": 0,
+                    "maxwidth": 700,
+                    "sizes": [[320, 50]]
                 },
                 {
                     "minwidth": 700,
-                    "sizes": [[728, 90]] //empty list if no ads should be displayed
+                    "sizes": [[728, 90]]
                 }]
             },
             "lay3rect1": { //!not called on website
                 "ancora_adslot_id": "307",
                 "rubicon_zone_id": "783748",
                 "viewports" : [{
-                    "minwidth": 0, //minwidth always required
-                    "maxwidth": 700, //only required if more viewports are defined
-                    "sizes": [[]] //must be comma separated list
+                    "minwidth": 0,
+                    "maxwidth": 700,
+                    "sizes": [[]]
                 },
                 {
                     "minwidth": 700,
-                    "sizes": [[]] //empty list if no ads should be displayed
+                    "sizes": [[]]
                 }]
             },
 
@@ -418,26 +415,26 @@ adslot_mapping = {
                 "ancora_adslot_id": "305",
                 "rubicon_zone_id": "783748",
                 "viewports" : [{
-                    "minwidth": 0, //minwidth always required
-                    "maxwidth": 700, //only required if more viewports are defined
-                    "sizes": [[320, 50]] //must be comma separated list
+                    "minwidth": 0,
+                    "maxwidth": 700,
+                    "sizes": [[320, 50]]
                 },
                 {
                     "minwidth": 700,
-                    "sizes": [[728, 90]] //empty list if no ads should be displayed
+                    "sizes": [[728, 90]]
                 }]
             },
             "lay2lead2": {
                 "ancora_adslot_id": "306",
                 "rubicon_zone_id": "783748",
                 "viewports" : [{
-                    "minwidth": 0, //minwidth always required
-                    "maxwidth": 700, //only required if more viewports are defined
-                    "sizes": [[320, 50]] //must be comma separated list
+                    "minwidth": 0,
+                    "maxwidth": 700,
+                    "sizes": [[320, 50]]
                 },
                 {
                     "minwidth": 700,
-                    "sizes": [[728, 90]] //empty list if no ads should be displayed
+                    "sizes": [[728, 90]]
                 }]
             },
             "lay3rect1": { //  !!not called on website (legacy adslot instead)

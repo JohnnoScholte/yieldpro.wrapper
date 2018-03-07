@@ -1,3 +1,5 @@
+//skoaltv.nl
+
 section_mapping = {
     "Home": "1104"
     }
@@ -7,10 +9,10 @@ adslot_mapping = {
         "headerbidding": false,
         "viewports": true,
         "headerbidding_networks": {
-            "rubicon": true,
+            "rubicon": false,
             "rubicon_site_id": "",
             "rubicon_account_id": "",
-            "appnexus": true,
+            "appnexus": false,
             "appnexus_id": "12287971",
         },
         "adslots": {

@@ -1,6 +1,4 @@
 //Zeeland 
-//1: section ids
-//enter all sections, mapping the id that is set on the website to the section_id in the backend
 section_mapping = {
     "Home": "1187",
     "Container": "1188",
@@ -16,7 +14,6 @@ section_mapping = {
     "Default": "1287",
     }
 
-//2: Settings for adslots and headerbidding.
 adslot_mapping = {
         "ancora_site_id": 344,
         "headerbidding": true,
@@ -27,7 +24,7 @@ adslot_mapping = {
             "rubicon_account_id": "16476",
             "appnexus": true,
             "appnexus_id": "11904370",
-            "criteo": true,
+            "criteo": false,
         },
         "criteo_hb": {
             "300x250": "1159013",
