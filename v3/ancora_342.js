@@ -24,7 +24,7 @@ adslot_mapping = {
             "rubicon_account_id": "16476",
             "appnexus": true,
             "appnexus_id": "12288085",
-            "criteo": false
+            "criteo": true
         },
         "criteo_hb": {
             "300x250": "1159034",

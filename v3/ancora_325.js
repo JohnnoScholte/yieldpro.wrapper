@@ -20,7 +20,7 @@ adslot_mapping = {
         "rubicon_account_id": "16476",
         "appnexus": true,
         "appnexus_id": "12379298",
-        "criteo": false,
+        "criteo": true,
     },
     "criteo_hb": {
         "300x250": "1158982",
@@ -85,7 +85,7 @@ adslot_mapping = {
                 "ancora_adslot_id": "299",
                 "rubicon_zone_id": "783748",
                 "viewports" : [{
-                    "minwidth": 0,d[4]
+                    "minwidth": 0,
                     "maxwidth": 700,
                     "sizes": [[320, 50]]
                 },
