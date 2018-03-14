@@ -15,7 +15,7 @@ adslot_mapping = {
     "viewports": true,
     "headerbidding_networks": {
         "rubicon": true,
-        "rubicon_site_id": "148456",
+        "rubicon_site_id": "148458",
         "rubicon_account_id": "16476",
         "appnexus": true,
         "appnexus_id": "10898630",

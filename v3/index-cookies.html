@@ -1,0 +1,90 @@
+<html>
+<head>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"
+  integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="
+  crossorigin="anonymous"></script>
+    <meta property="yieldprosection" content="Homepage"/>
+    <script src='https://creatives.yieldpro.eu/ptphb_17503a6b.js'></script>
+    <script type='text/javascript' src='https://static.ancoraplatform.com/v3/ancora_345.js'></script>
+    <script type='text/javascript' src='ancora_settings_wantcookie.js'></script>
+</head>
+
+
+
+<body>
+<p>Ancora691_1195<br>
+    <script id='content1'>
+  create_yieldpro_adslot('content1'); 
+</script>
+</p>
+<p>Ancora692_1195<br>
+<script id='content2'>
+  create_yieldpro_adslot('content2'); 
+</script>
+</p>
+<p>Ancora693_1195<br>
+<script id='content3'>
+  create_yieldpro_adslot('content3'); 
+</script>
+</p>
+<p>Ancora694_1195<br>
+<script id='content4'>
+  create_yieldpro_adslot('content4'); 
+</script>
+</p>
+<p>Ancora695_1195<br>
+<script id='content5'>
+  create_yieldpro_adslot('content5'); 
+</script>
+</p>
+<p>Ancora696_1195<br>
+<script id='content6'>
+  create_yieldpro_adslot('content6'); 
+</script>
+</p>
+<p>Ancora697_1195<br>
+<script id='content7'>
+  create_yieldpro_adslot('content7'); 
+</script>
+</p>
+<p>Ancora700_1195<br>
+<script id='sidebar1'>
+  create_yieldpro_adslot('sidebar1'); 
+</script>
+</p>
+<p>Ancora701_1195<br>
+<script id='sidebar2'>
+  create_yieldpro_adslot('sidebar2'); 
+</script>
+</p>
+<p>Ancora702_1195<br>
+<script id='sidebar3'>
+  create_yieldpro_adslot('sidebar3'); 
+</script>
+</p>
+<p>Ancora703_1195<br>
+<script id='sidebar4'>
+  create_yieldpro_adslot('sidebar4'); 
+</script>
+</p>
+
+    <script>
+        //adding timeout to demonstrate that the ad loading is delayed. For testing purposes only!
+        setTimeout(() => {
+            console.log("Waited 5 seconds, now loading ad");
+            $.getScript("https://static.ancoraplatform.com/v3/ancora_settings_gotcookie.js")
+            if (adslot_mapping["headerbidding"]) {
+              for(var i = 0; i < ancora_ids.length; i++){
+                try{
+                  AncoraTagProvider.displayAd(ancora_ids[i]);
+                }
+                catch(err){};
+              }
+            }
+        }, 1000);
+    </script>
+
+
+</body>
+
+</html>

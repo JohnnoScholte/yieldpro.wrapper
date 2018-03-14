@@ -119,7 +119,7 @@ else{
 //create headerbidding object if needed
 if (adslot_mapping.headerbidding) {
   var adUnits = [];
-  for(i in adslot_mapping.adslots[ancora_section]){
+  for(var i in adslot_mapping.adslots[ancora_section]){
     adslot = adslot_mapping.adslots[ancora_section][i]
     bids = [];
 
@@ -161,19 +161,20 @@ if (adslot_mapping.headerbidding) {
     {
       if(hb_slots[i].length > 0)
       sizes = hb_slots[i];
-      if(sizes.length > 1)
+      if(sizes[0].constructor === Array)
       {
-        for(var i = 0; i < sizes.length; i++)
+        for(var pos = 0; pos < sizes.length; pos++)
         {
-          size = sizes[i]
+          size = sizes[pos]
           build_criteo(size)
         }
       }
-      if(sizes.length == 1)
+      else if (sizes.length > 0)
       {
         build_criteo(sizes)
       }
     }
+
 
     div_id = 'Ancora' + adslot.ancora_adslot_id + '_' + ancora_section;
 
